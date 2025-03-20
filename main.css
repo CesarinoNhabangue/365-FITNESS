@@ -24,12 +24,10 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    /*o que fica abaixo da barra*/
     background: #000;
 }
 
 html::-webkit-scrollbar-thumb {
-    /*cor da barra*/
     background: rgb(255, 223, 5);
 }
 
@@ -631,7 +629,7 @@ section {
     color: #fff;
     text-transform: none;
 }
-/*Responsividade*/
+/*Responsividade do site(para qualquer dispositivo)*/
 @media (max-width: 991px) {
     html {
         font-size: 55%;
@@ -710,10 +708,10 @@ section {
         font-size: 50%;
     }
 }
-/* main.css */
+
 #logo {
     display: block;
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-    height: 100px; /* Ajuste a altura conforme necessário */
-    width: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; 
+    height: 100px; 
+    width: auto; 
 }
